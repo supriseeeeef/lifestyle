@@ -1,0 +1,43 @@
+:root{
+    --color-for-hover-a: #03A9F4;
+    --color-for-nav: #7D7D7D;
+    --color-for-card-title: #B4AD9E;
+    --color-for-article: #626262;
+}
+
+.menu-item{
+    font-family:'Playfair Display', serif;
+    list-style: none;
+}
+
+.link-item:hover{
+    color: var(--color-for-hover-a);
+}
+
+.link-item{
+    text-decoration: none;
+}
+
+.active{
+    color: var(--color-for-hover-a);
+}
+
+.description{
+    font-family:'Playfair Display', serif;
+    font-size: 14px;
+}
+
+.title-card{
+    font-size: 30px;
+    font-family:'Playfair Display', serif;
+}
+
+.card-item{
+    list-style: none;
+}
+
+.title{
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--color-for-card-title);
+    font-size: 14px;
+}
